@@ -9,10 +9,10 @@ puts <<-TEXT
             TEXT
 
 puts <<~TEXT
-これもヒアドキュメントです
+       これもヒアドキュメントです
         なんとヒアドキュメントで内部インデントで
         部分が無視されるみたい。
-TEXT
+     TEXT
 
 puts 0.4r
 puts 0.4r.class          # => Rational
@@ -22,5 +22,3 @@ puts (0.3i + 0.5).class  # => Complex
 
 puts 0.4r + 0.5i
 puts (0.4r + 0.5i).class # => Complex
-
-

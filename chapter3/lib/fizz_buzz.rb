@@ -1,4 +1,4 @@
-def fizz_buzz num
+def fizz_buzz(num)
   case num % 15
   when 0
     'Fizz Buzz'
