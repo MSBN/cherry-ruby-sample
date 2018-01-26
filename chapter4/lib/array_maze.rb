@@ -10,7 +10,7 @@ sum = 0
 
 (1..10).each do |num; sum|
   sum = 10
-  other =+ num
+  other = +num
 end
 
 puts sum
