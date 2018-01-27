@@ -15,5 +15,5 @@ p [[:a, 'あ'], [:e, 'え'], [:i, 'い']].to_h
 # multi_currencies = { 'france' => 'euro', **currencies }
 # p multi_currencies
 
-multi_currencies = { 'france' => 'euro', **currencies.to_a.map{|key, value| [key.to_sym, value]}.to_h }
+multi_currencies = {'france' => 'euro', **currencies.to_a.map { |key, value| [key.to_sym, value] }.to_h}
 p multi_currencies
